@@ -10,39 +10,64 @@
         private $v1;
         private $p1;
 
+
         public function getA1(){
             return $this->a1;
+        }
+
+        public function setA1($a1){
+            $this->a1 = $a1;
         }
         
         public function getA2(){
             return $this->a2;
         }
 
+        public function setA2($a2){
+            $this->a2 = $a2;
+        }
+
         public function getA3(){
             return $this->a3;
         }
-
+        public function setA3($a3){
+            $this->a3 = $a3;
+        }
         
         public function getA4(){
             return $this->a4;
+        }
+
+        public function setA4($a4){
+            $this->a4 = $a4;
         }
 
         public function getV1(){
             return $this->v1;
         }
 
+        public function setV1($v1){
+            $this->v1 = $v1;
+        }
+
         public function getP1(){
             return $this->p1;
         }
 
+        public function setP1($p1){
+            $this->p1 = $p1;
+        }
+
         
         public function setValores($a1, $a2, $a3, $a4, $v1, $p1){
+            
              $this->a1 = $a1;
              $this->a2 = $a2;
              $this->a3 = $a3;
              $this->a4 = $a4;
              $this->v1 = $v1;
              $this->p1 = $p1;
+            
         }
 
 
@@ -83,5 +108,7 @@
     }else{
         $tela = 'Seja bem vindo!';
     }
+
+
 
 ?>
